@@ -25,9 +25,9 @@ export const loader = async ({ params }: LoaderFunctionArgs) => {
 
 export default function Contact() {
   const { contact } = useLoaderData<typeof loader>();
-
   return (
     <div id="contact">
+  
       <div>
         <img
           alt={`${contact.first} ${contact.last} avatar`}
